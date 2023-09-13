@@ -1,0 +1,16 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.content {
+    max-height: 800px;
+    /* Đặt chiều cao tối đa là 800px */
+    overflow-y: auto;
+    /* Thêm thanh cuộn nếu nội dung dài hơn */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
