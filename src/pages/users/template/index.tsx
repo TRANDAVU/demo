@@ -7,24 +7,24 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Folder() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between p-24 `}
     >
       <Title title={'Template'} />
 
       <div className="content-container">
         <div className="content">
           <h1><center>Tạo 1 trang cơ bản</center></h1>
-          <p>
+          <div>
             <b>B1:</b>Tạo 1 folder trong folder <b>src/Pages</b> và đặt tên cho folder(Tên folder là tên page).
-          </p>
-          <p>
+          </div>
+          <div>
             <b>B2:</b>Tạo 1 file <b>index.tsx</b>(là file khởi chạy) <br />
-          </p>
+          </div>
           <i>Lưu ý: có thể tạo 1 folder component để lưu các thành phần cấu tạo page</i> <br />
           {/* Thêm nội dung văn bản tại đây */}
           Ví dụ Tạo 1 trang /user/about:
           <p>-Tạo folder users</p>
-          <p>
+          <div>
             - tạo folder about tương ứng với link <b>/users/about</b> <br />
             <Image
               src="/images/I1.png"
@@ -32,9 +32,9 @@ export default function Folder() {
               height={500}
               alt="Picture of the author"
             />
-          </p>
+          </div>
 
-          <p>
+          <div>
             -Tạo 1 folder component(Lưu các thành phần cấu tạo page) <br />
             -tạo 1 file index.tsx lưu code và là file chạy chính <br />
             <Image
@@ -43,8 +43,8 @@ export default function Folder() {
               height={500}
               alt="Picture of the author"
             />
-          </p>
-          <p>
+          </div>
+          <div>
             <p>-Code component</p>
             <Image
               src="/images/code_component.png"
@@ -60,7 +60,7 @@ export default function Folder() {
               height={500}
               alt="Picture of the author"
             />
-          </p>
+          </div>
 
         </div>
       </div>
